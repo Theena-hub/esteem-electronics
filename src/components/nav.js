@@ -12,6 +12,7 @@ class Navigation extends React.Component {
     redirectToMailPage = () => {
         // Redirect to the mail page or any other route you want
         this.props.history.push('/mail');
+        //
     };
     render() {        
         return (
