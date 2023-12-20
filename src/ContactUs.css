@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+
+.contactus-container {
+    width: 100%;
+    height: 600px;
+    /* background-color:#d2d0d0; */
+    overflow-x: hidden;
+    user-select: none;
+}
+
+.contactus-container-left,
+.contactus-container-right {
+    /* background-color: black; */
+    height: 100%;
+}
+
+.poppins {
+    font-family: 'Poppins', sans-serif;
+}
+
+.primary {
+    color: #EE2536;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.fw-700 {
+    font-weight: 700 !important;
+}
+
+.mapouter {
+    position: relative;
+    text-align: right;
+    height: 100%;
+    width: 100%;
+}
+
+.gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    height: 100%;
+    width: 100%;
+}
+
+.input {
+    height: 48px;
+    font-size: 16px;
+    border: 2px solid #A2A2A2;
+    width: 45%;
+    font-weight: bold;
+    margin: 15px auto;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.form-title::after {
+    content: "*";
+    margin-left: 5px;
+    color: #EE2536;
+}
+
+.contactus-form-submit-btn {
+    background-color: transparent;
+    border: none;
+    font-size: 24px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #454545;
+    position: relative;
+}
+
+.contactus-form-submit-btn::before {
+    content: "";
+    width: 42px;
+    height: 42px;
+    background-color: rgba(238, 37, 54, 0.20);
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    top: -5px;
+}
+
+.contactus-form-submit-btn:hover::before {
+    left: auto;
+    right: -5px;
+}
+
+.address {
+    color: #717171;
+    line-height: 169%;
+    /* 27.04px */
+}

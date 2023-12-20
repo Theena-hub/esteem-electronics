@@ -1,0 +1,35 @@
+.preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #fff; /* Adjust background color as needed */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+    z-index: 999;
+  }
+  
+  .preloader.active {
+    opacity: 1;
+  }
+  
+  .preloader .logo {
+    font-size: 24px; /* Adjust font size as needed */
+    /* Add your logo styling here */
+    /* You can also add an image logo inside the .logo div */
+    /* Example: background-image: url('your-logo.png'); */
+    animation: zoomInOut 2s infinite;
+  }
+  
+  @keyframes zoomInOut {
+    0%, 100% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.2); /* Adjust the scale factor for zooming in/out */
+    }
+  }
